@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="60" viewBox="0 0 240 60">
+  <g fill="none" stroke="#122" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 45 L40 25 L60 45" stroke="#122"/>
+    <rect x="62" y="12" width="10" height="26" rx="2" fill="#122"/>
+    <path d="M12 12 L34 34" stroke="#122" transform="translate(60,0) rotate(-30)"/>
+  </g>
+  <text x="90" y="36" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#122">VINCENT'S</text>
+  <text x="90" y="50" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#122">Maintenance and Plastering</text>
+</svg>

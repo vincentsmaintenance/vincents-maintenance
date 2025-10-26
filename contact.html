@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact — Vincent's Maintenance</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="header">
+      <div class="container nav">
+        <div class="logo"><img src="logo.svg" alt="Vincent's logo"></div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    
+<main>
+
+<div class="container">
+  <section class="section card">
+    <h2>Contact</h2>
+    <p>Phone: <strong>07548 967495</strong></p>
+    <p>Email: <strong>Vincentsmaintenance@hotmail.com</strong></p>
+    <form action="https://formsubmit.co/Vincentsmaintenance@hotmail.com" method="POST">
+      <!-- FormSubmit (formsubmit.co) posts to your email. First submission requires confirming via email. -->
+      <input type="hidden" name="_subject" value="New quote request from website">
+      <input type="hidden" name="_next" value="thankyou.html">
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" name="name" required>
+      </div>
+      <div class="form-group">
+        <label>Phone</label>
+        <input type="text" name="phone">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label>Service required</label>
+        <select name="service">
+          <option>Plastering</option>
+          <option>General Maintenance</option>
+          <option>Rendering</option>
+          <option>Studwork</option>
+          <option>Brickwork</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Message / project details</label>
+        <textarea name="message" rows="5"></textarea>
+      </div>
+      <button class="btn" type="submit">Send Quote Request</button>
+    </form>
+    <p style="margin-top:12px; font-size:13px; color:#555;">Note: The form uses FormSubmit (formsubmit.co). On your first submission you will receive a confirmation email from FormSubmit — click the link there to start receiving messages to Vincentsmaintenance@hotmail.com.</p>
+  </section>
+</div>
+
+</main>
+
+    <footer>
+      <div class="container">
+        <div>© Vincent's Maintenance and Plastering</div>
+        <div style="margin-top:8px">Phone: <strong>07548 967495</strong> • Email: <strong>Vincentsmaintenance@hotmail.com</strong></div>
+      </div>
+    </footer>
+    
+<script src="script.js"></script>
+</body>
+</html>
